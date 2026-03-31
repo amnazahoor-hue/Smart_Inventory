@@ -1,0 +1,44 @@
+# =========================
+# PYTHON / FLASK (Backend)
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# Flask uploads (optional - ignore user files)
+backend/uploads/
+
+# Database files
+*.db
+*.sqlite3
+
+# CSV exports (generated files)
+*.csv
+
+# Environment variables
+.env
+
+# =========================
+# NODE / FRONTEND (Vite)
+# =========================
+frontend/node_modules/
+frontend/dist/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# =========================
+# IDE / SYSTEM FILES
+# =========================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
